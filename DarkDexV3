@@ -1,5 +1,3 @@
-local OBJECTID = 122694193467717
-
 -- Add cloneref support if the exploit doesn't have it or if it's really shit..
 
 -- Credit to Alex | JJsploit Support
@@ -230,7 +228,7 @@ RunService.Stepped:Connect(function()
 end)
 
 -- Dex with CloneRef Support (made as global)
-getgenv().Bypassed_Dex = game:GetObjects("rbxassetid://" .. tostring(OBJECTID))[1]
+getgenv().Bypassed_Dex = game:GetObjects("rbxassetid://9352453730")[1]
  
 local charset = {}
 for i = 48,  57 do table.insert(charset, string.char(i)) end
